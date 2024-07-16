@@ -2,7 +2,9 @@
 <manifest>
   
 <remote name="shazuxd" fetch="https://github.com/shazuxd"/>
-
+  <!-- lineage libcxx -->
+  <remove-project name="platform/external/libcxx" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="lineage" revision="lineage-20.0"/>
 <!-- Device Trees -->
   <project path="device/xiaomi/pissarro" name="device_xiaomi_pissarro" remote="shazuxd" revision="thirteen" clone-depth="1"/>
   <project path="vendor/xiaomi/pissarro" name="pissarro-dev/vendor_xiaomi_pissarro" remote="github" revision="thirteen" clone-depth="1"/>
