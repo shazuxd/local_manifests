@@ -4,18 +4,14 @@
 <remote name="shazuxd" fetch="https://github.com/shazuxd"/>
 
 <!-- Remove Repos -->
-  <remove-project name="packages_modules_Connectivity"/>
-  <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
-  <remove-project name="vendor_aosp" />
+  <remove-project name="LineageOS/android_device_mediatek_sepolicy_vndr" />
 
 <!-- Device Trees -->
-  <project path="device/xiaomi/pissarro" name="device_xiaomi_pissarro" remote="shazuxd" revision="thirteen" clone-depth="1"/>
-  <project path="vendor/xiaomi/pissarro" name="pissarro-dev/vendor_xiaomi_pissarro" remote="github" revision="thirteen" clone-depth="1"/>
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="shazuxd" revision="lineage-20" clone-depth="1"/>
-  <project path="hardware/mediatek" name="hardware_mediatek" remote="shazuxd" revision="lineage-20" clone-depth="1"/>
-  <project path="device/mediatek/sepolicy_vndr" name="xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-20" clone-depth="1"/>
-  <project path="kernel/xiaomi/pissarro" name="pissarro-dev/kernel_xiaomi_pissarro" remote="github" revision="lineage-20" clone-depth="1"/>
-  <project path="packages/modules/Connectivity" name="PixelOS-AOSP/packages_modules_Connectivity-old" remote="github" revision="thirteen" clone-depth="1"/>
-  <project path="vendor/aosp" name="vendor_aosp" remote="shazuxd" revision="thirteen" clone-depth="1" />
+  <project path="device/xiaomi/pissarro" name="device_xiaomi_pissarro" remote="shazuxd" revision="fourteen" clone-depth="1"/>
+  <project path="vendor/xiaomi/pissarro" name="vendor_xiaomi_pissarro" remote="shazuxd" revision="fourteen" clone-depth="1"/>
+  <project path="hardware/xiaomi" name="xiaomi-mediatek-devs/android_hardware_xiaomi" remote="github" revision="lineage-21" clone-depth="1"/>
+  <project path="hardware/mediatek" name="xiaomi-mediatek-devs/android_hardware_mediatek" remote="github" revision="lineage-21" clone-depth="1"/>
+  <project path="device/mediatek/sepolicy_vndr" name="xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-21" clone-depth="1"/>
+  <project path="kernel/xiaomi/pissarro" name="pissarro-dev/kernel_xiaomi_pissarro" remote="github" revision="lineage-21" clone-depth="1"/>
 
 </manifest>
