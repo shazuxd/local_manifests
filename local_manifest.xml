@@ -9,7 +9,7 @@
 <!-- Device Trees -->
   <project path="device/xiaomi/pissarro" name="device_xiaomi_pissarro" remote="shazuxd" revision="fourteen" clone-depth="1"/>
   <project path="vendor/xiaomi/pissarro" name="vendor_xiaomi_pissarro" remote="shazuxd" revision="fourteen" clone-depth="1"/>
-  <project path="hardware/xiaomi" name="xiaomi-mediatek-devs/android_hardware_xiaomi" remote="github" revision="lineage-21" clone-depth="1"/>
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="shazuxd" revision="lineage-21" clone-depth="1"/>
   <project path="hardware/mediatek" name="xiaomi-mediatek-devs/android_hardware_mediatek" remote="github" revision="lineage-21" clone-depth="1"/>
   <project path="device/mediatek/sepolicy_vndr" name="xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-21" clone-depth="1"/>
   <project path="kernel/xiaomi/pissarro" name="pissarro-dev/kernel_xiaomi_pissarro" remote="github" revision="lineage-21" clone-depth="1"/>
