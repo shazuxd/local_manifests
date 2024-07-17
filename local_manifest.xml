@@ -14,7 +14,5 @@
   <project path="device/mediatek/sepolicy_vndr" name="xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-20" clone-depth="1"/>
   <project path="kernel/xiaomi/pissarro" name="pissarro-dev/kernel_xiaomi_pissarro" remote="github" revision="lineage-20" clone-depth="1"/>
   <project path="vendor/derp" name="vendor_derp" remote="shazuxd" revision="13" clone-depth="1"/>
-  <project path="vendor/xiaomi/miuicamera" name="Positron-B/vendor_xiaomi_miuicamera" remote="github" revision="main" clone-depth="1"/>
-  <project path="vendor/xiaomi/miuicamera-pissarro" name="pissarro-dev/vendor_xiaomi_miuicamera-pissarro" remote="github" revision="main" clone-depth="1"/>
   
 </manifest>
